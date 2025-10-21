@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-#define pb push_back
-#define all(v) v.begin(), v.end()
 using ll = long long;
 
 int main() {
