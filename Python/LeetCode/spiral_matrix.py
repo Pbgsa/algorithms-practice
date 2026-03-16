@@ -52,5 +52,7 @@ class Solution:
                     j += 1
         
         return order
+    
+# The time complexity of this solution is O(m*n) since we traverse the entire matrix once, and the space complexity is O(m*n) in the worst case if all elements are unique and added to the order list.
 
             
