@@ -46,6 +46,10 @@ mp = defaultdict(int)
 
 mp["a"] += 1   # automatically initializes as 0
 
+mp.update({"b": 2, "c": 3})   # bulk update
+
+mp.values()   # dict_values([1, 2, 3])
+
 
 # =========================
 # COUNTER (FREQUENCY MAP)
