@@ -23,3 +23,5 @@ class Solution:
                     write += 1
 
         return write
+    
+# A complexidade de tempo é O(n) onde n é o comprimento da lista chars, pois estamos iterando sobre a lista chars uma vez. A complexidade de espaço é O(1) para armazenar as variáveis auxiliares, além do espaço de saída que é O(n) no pior caso quando todos os caracteres são diferentes.
